@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ProximityDetectorApp.iml" filepath="$PROJECT_DIR$/ProximityDetectorApp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file:///media/jederson_luz/OS/Users/Jeder/git/ProximityDetector/ProximityDetectorApp.iml" filepath="/media/jederson_luz/OS/Users/Jeder/git/ProximityDetector/ProximityDetectorApp.iml" />
+      <module fileurl="file:///media/jederson_luz/OS/Users/Jeder/git/ProximityDetector/app/app.iml" filepath="/media/jederson_luz/OS/Users/Jeder/git/ProximityDetector/app/app.iml" />
     </modules>
   </component>
 </project>

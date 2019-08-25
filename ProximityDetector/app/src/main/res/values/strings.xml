@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ProximityDetector</string>
+    <string name="user_email">Digite seu email</string>
+    <string name="start_button">Começar</string>
+</resources>

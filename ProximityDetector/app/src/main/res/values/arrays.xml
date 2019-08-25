@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="treshold">
+        <item>2 cm</item>
+        <item>3 cm</item>
+        <item>4 cm</item>
+        <item>5 cm</item>
+    </string-array>
+</resources>

@@ -2,4 +2,8 @@
     <string name="app_name">ProximityDetector</string>
     <string name="user_email">Digite seu email</string>
     <string name="start_button">Começar</string>
+    <string name="ativar_sensor">Ativar sensor</string>
+    <string name="desativar_sensor">Desativar sensor</string>
+    <string name="escolher">Escolher</string>
+    <string name="sensibility">Sensibilidade</string>
 </resources>

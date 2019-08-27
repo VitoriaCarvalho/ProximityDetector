@@ -112,7 +112,8 @@ public class DisplayMessageActivity extends AppCompatActivity implements SensorE
                     Toast.makeText(getApplicationContext(), "Permission is not granted", Toast.LENGTH_LONG).show();
                 } else {
                     // Permission is granted
-                    Client client = new Client(findViewById(R.id.textEmail).toString(), longitude, latitude);
+                    TextView email = findViewById(R.id.textEmail);
+                    Client client = new Client(email.getText().toString(), longitude, latitude);
                     client.execute();
                 }
             } else {

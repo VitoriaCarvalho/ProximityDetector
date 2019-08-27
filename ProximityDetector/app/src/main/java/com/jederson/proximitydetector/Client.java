@@ -15,6 +15,13 @@ public class Client extends AsyncTask<Void, Void, Void> {
 
     String host= "192.168.43.68";
     int port = 12345;
+    String email, longitude, latitude;
+
+    public Client (String email, String longitude, String latitude) {
+        this.email = email;
+        this.longitude = longitude;
+        this.latitude = latitude;
+    }
 
     @Override
     protected Void doInBackground(Void... arg0) {
@@ -25,7 +32,7 @@ public class Client extends AsyncTask<Void, Void, Void> {
             Socket cliente = new Socket(host, port);
             Log.d("Mensagem", "Conectado com sucesso!");
             PrintStream mensagem = new PrintStream(cliente.getOutputStream());
-            mensagem.println(String.format("Perto:%s:%s", DisplayMessageActivity.longitude, DisplayMessageActivity.latitude));
+            mensagem.println(String.format("%s:%s:%s", email, longitude, latitude));
         } catch (Exception e) {
             Log.d("Mensagem", "Conexão falhou!!");
         } finally {

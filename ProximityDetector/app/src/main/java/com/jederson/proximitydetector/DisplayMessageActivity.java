@@ -47,7 +47,7 @@ public class DisplayMessageActivity extends AppCompatActivity implements SensorE
 
     protected LocationManager locationManager;
     protected LocationListener locationListener;
-    protected static String latitude, longitude;
+    protected String latitude, longitude;
     protected boolean gps_enabled, network_enabled;
 
     @Override
@@ -112,7 +112,7 @@ public class DisplayMessageActivity extends AppCompatActivity implements SensorE
                     Toast.makeText(getApplicationContext(), "Permission is not granted", Toast.LENGTH_LONG).show();
                 } else {
                     // Permission is granted
-                    Client client = new Client();
+                    Client client = new Client(findViewById(R.id.textEmail).toString(), longitude, latitude);
                     client.execute();
                 }
             } else {

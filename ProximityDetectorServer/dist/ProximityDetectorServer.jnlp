@@ -8,7 +8,8 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="ProximityDetectorServer.jar" size="15027" download="eager" />
+    <jar href="ProximityDetectorServer.jar" size="17259" download="eager" />
+    <jar href="lib/javax.mail-1.6.2.jar" size="659031" download="eager" />
   </resources>
   <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="ProximityDetectorServer" >
     <param name="requiredFXVersion" value="8.0+"/>

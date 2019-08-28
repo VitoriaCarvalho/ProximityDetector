@@ -43,6 +43,8 @@ public class TratamentoClass implements Runnable {
             interfaceServer.setVisible(true);
             audio = new Audio();
             audio.play();
+            String message = "Seu dispositivo pode estar em perigo!\n\nLocalização do dispositivo\nLongitude: " + longitude + "\nLatitude: " + latitude + "\n\n";
+            JavaMailApp mail = new JavaMailApp(dados.split(":")[0], message);
         } catch (IOException | LineUnavailableException | UnsupportedAudioFileException e) {
             System.out.println(e.getMessage());
         }

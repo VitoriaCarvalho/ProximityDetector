@@ -14,7 +14,7 @@ Para inicializar o sistema, abra o projeto ProximityDetectorServer no NetBeans e
 
 Em seguida, abra o projeto Android (ProximityDetector), conecte um smartphone ao computador e então execute o aplicativo.
 
-Na primeira tela do app, digite o e-mail ao qual deseja receber notificações. Na próxima tela, você poderá ativar o detector ao pressionar o botão de ativação. A partir daí, quando o sensor detectar a aproximação, enviará uma notificação pro servidor, que irá disparar um alarme e mostrar as informações de localização na interface. Além disso, essas mesmas informações serão enviadas para o e-mail informado.
+Na primeira tela do app, digite o e-mail ao qual deseja receber notificações. Na próxima tela, você poderá ativar o detector ao pressionar o botão de ativação. A partir daí, quando o sensor detectar a aproximação, enviará uma notificação para o servidor, que irá disparar um alarme e mostrar as informações de localização na interface. Além disso, essas mesmas informações serão enviadas para o e-mail informado.
 
 ## Desenvolvedores
 

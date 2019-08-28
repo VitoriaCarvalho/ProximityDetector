@@ -146,7 +146,7 @@ public class InterfaceServer2 extends javax.swing.JFrame {
     private void buttonStopAlertActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonStopAlertActionPerformed
         try {
             // TODO add your handling code here:
-            TratamentClass.audio.stop();
+            Server.audio.stop();
         } catch (UnsupportedAudioFileException ex) {
             Logger.getLogger(InterfaceServer2.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {
@@ -155,9 +155,9 @@ public class InterfaceServer2 extends javax.swing.JFrame {
             Logger.getLogger(InterfaceServer2.class.getName()).log(Level.SEVERE, null, ex);
         }
         setVisible(false);
-        TratamentClass.flag = false;
+        Server.flag = false;
         try {
-            TratamentClass.cliente.close();
+            Server.cliente.close();
         } catch (IOException ex) {
             Logger.getLogger(InterfaceServer2.class.getName()).log(Level.SEVERE, null, ex);
         }

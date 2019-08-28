@@ -3,17 +3,14 @@ package com.jederson.proximitydetector;
 import android.os.AsyncTask;
 import android.util.Log;
 
-import java.io.ByteArrayOutputStream;
-import java.io.File;
 import java.io.IOException;
-import java.io.OutputStream;
 import java.io.PrintStream;
 import java.net.Socket;
-import java.nio.ByteBuffer;
+
 
 public class Client extends AsyncTask<Void, Void, Void> {
 
-    String host= "192.168.43.68";
+    String host= "10.180.14.64";
     int port = 12345;
     String email, longitude, latitude;
 

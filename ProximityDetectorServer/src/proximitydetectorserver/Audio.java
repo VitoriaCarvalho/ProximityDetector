@@ -6,8 +6,7 @@
 package proximitydetectorserver;
 
 import java.io.File; 
-import java.io.IOException; 
-import java.util.Scanner; 
+import java.io.IOException;
   
 import javax.sound.sampled.AudioInputStream; 
 import javax.sound.sampled.AudioSystem; 
@@ -37,7 +36,7 @@ public class Audio {
         IOException, LineUnavailableException  
     { 
         // create AudioInputStream object
-        filePath = "/home/vitoria/git/ProximityDetector/danger-alarm-23793.wav";
+        filePath = "/home/jederson_luz/git/ProximityDetector/danger-alarm-23793.wav";
         audioInputStream =  
                 AudioSystem.getAudioInputStream(new File(filePath).getAbsoluteFile()); 
           

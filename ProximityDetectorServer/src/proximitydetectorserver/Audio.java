@@ -36,7 +36,8 @@ public class Audio {
         IOException, LineUnavailableException  
     { 
         // create AudioInputStream object
-        filePath = "/home/jederson_luz/git/ProximityDetector/danger-alarm-23793.wav";
+        
+        filePath = "danger-alarm-23793.wav";
         audioInputStream =  
                 AudioSystem.getAudioInputStream(new File(filePath).getAbsoluteFile()); 
           
